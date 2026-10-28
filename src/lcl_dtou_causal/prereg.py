@@ -60,7 +60,7 @@ def freeze() -> dict:
     rec = {
         "file": "PREREGISTRATION.md",
         "sha256": current_hash(),
-        "frozen_at_utc": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
+        "frozen_at_utc": dt.datetime.now(dt.UTC).isoformat(timespec="seconds"),
         "plan_commit": git_head(),
     }
     write_json(HASH_FILE, rec)
