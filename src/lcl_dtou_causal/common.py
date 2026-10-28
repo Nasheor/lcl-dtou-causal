@@ -25,8 +25,12 @@ HASH_FILE = RESULTS / "preregistration_sha256.json"
 DOWNLOAD_CHECK = RESULTS / "download_check.json"
 
 PANEL = DERIVED / "panel_monthly.parquet"
+PANEL_BST_SHIFT = DERIVED / "panel_monthly_bst_shift.parquet"
 SCHEDULE = DERIVED / "dtou_schedule_2013.parquet"
 PRICES = DERIVED / "prices.json"
+
+README_MARK_START = "<!-- results:start -->"
+README_MARK_END = "<!-- results:end -->"
 
 ATTRIBUTION = (
     "Contains data from 'SmartMeter Energy Consumption Data in London Households', UK Power Networks "

@@ -27,11 +27,13 @@ def main(argv: list[str] | None = None) -> int:
 
     sub.add_parser("download", help="fetch the London Datastore files into data/raw and verify them")
     sub.add_parser("schedule", help="build the 2013 dToU half-hour schedule and the price file")
-    sub.add_parser("panel", help="one DuckDB pass from the raw CSV files to the household-month panel")
+    pa = sub.add_parser("panel", help="one DuckDB pass from the raw CSV files to the household-month panel")
+    pa.add_argument("--variant", choices=["prereg", "bst-shift"], default="prereg", help="bst-shift builds the sensitivity panel")
 
     an = sub.add_parser("analyse", help="balance, DiD, event study, ANCOVA, placebos, heterogeneity")
     an.add_argument("--permutations", type=int, default=500)
     an.add_argument("--deviation", default=None)
+    an.add_argument("--sensitivity-timeframe", action="store_true", help="DiD on the bst-shift panel, outside the Results table")
 
     me = sub.add_parser("memo", help="write docs/memo.md, docs/partner_slide.md and results/readme_numbers.json")
     me.add_argument("--deviation", default=None)
@@ -61,10 +63,12 @@ def main(argv: list[str] | None = None) -> int:
     if args.cmd == "panel":
         from .panel import run
 
-        return run()
+        return run(variant=args.variant)
     if args.cmd == "analyse":
-        from .analyse import run_full
+        from .analyse import run_full, run_sensitivity_timeframe
 
+        if args.sensitivity_timeframe:
+            return run_sensitivity_timeframe(deviation=args.deviation)
         return run_full(permutations=args.permutations, deviation=args.deviation)
     if args.cmd == "memo":
         from .memo import run

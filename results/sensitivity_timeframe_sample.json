@@ -1,0 +1,168 @@
+{
+  "R0_all_rows": {
+    "Std": {
+      "household_months": null,
+      "households": 4443
+    },
+    "ToU": {
+      "household_months": null,
+      "households": 1123
+    }
+  },
+  "R0_rows_missing_kwh": 5560,
+  "R0_rows_total": 167932474,
+  "R0_rows_unparseable_timestamp": 0,
+  "R1_households": {
+    "Std": {
+      "household_months": null,
+      "households": 4438
+    },
+    "ToU": {
+      "household_months": null,
+      "households": 1123
+    }
+  },
+  "R1_rows_in_window": 153492337,
+  "R2_duplicate_household_timestamps": 105173,
+  "R2_rows_removed_by_collapsing": 105173,
+  "R3_household_months_before": {
+    "Std": {
+      "household_months": 86144,
+      "households": 4438
+    },
+    "ToU": {
+      "household_months": 21662,
+      "households": 1123
+    }
+  },
+  "R3_household_months_valid": {
+    "Std": {
+      "household_months": 82353,
+      "households": 4435
+    },
+    "ToU": {
+      "household_months": 20712,
+      "households": 1121
+    }
+  },
+  "R4_households_kept": {
+    "Std": {
+      "household_months": 67721,
+      "households": 3389
+    },
+    "ToU": {
+      "household_months": 16992,
+      "households": 862
+    }
+  },
+  "R5_households_with_both_groups": 0,
+  "attrition": {
+    "Std": {
+      "households_R0": 4443,
+      "households_any_valid_month_R3": 4435,
+      "households_kept_R4": 3389,
+      "share_lost_R0_to_R4_pct": 23.72,
+      "share_lost_R3_to_R4_pct": 23.59
+    },
+    "ToU": {
+      "households_R0": 1123,
+      "households_any_valid_month_R3": 1121,
+      "households_kept_R4": 862,
+      "share_lost_R0_to_R4_pct": 23.24,
+      "share_lost_R3_to_R4_pct": 23.1
+    }
+  },
+  "halfhours_without_schedule_band": 0,
+  "households_with_valid_month_by_month": {
+    "2012-01_Std": 365,
+    "2012-01_ToU": 57,
+    "2012-02_Std": 555,
+    "2012-02_ToU": 99,
+    "2012-03_Std": 750,
+    "2012-03_ToU": 137,
+    "2012-04_Std": 1107,
+    "2012-04_ToU": 231,
+    "2012-05_Std": 1895,
+    "2012-05_ToU": 461,
+    "2012-06_Std": 3006,
+    "2012-06_ToU": 743,
+    "2012-07_Std": 3547,
+    "2012-07_ToU": 888,
+    "2012-08_Std": 3793,
+    "2012-08_ToU": 963,
+    "2012-09_Std": 3798,
+    "2012-09_ToU": 963,
+    "2012-10_Std": 4086,
+    "2012-10_ToU": 1032,
+    "2012-11_Std": 4402,
+    "2012-11_ToU": 1116,
+    "2012-12_Std": 4395,
+    "2012-12_ToU": 1111,
+    "2013-01_Std": 4384,
+    "2013-01_ToU": 1107,
+    "2013-02_Std": 4348,
+    "2013-02_ToU": 1105,
+    "2013-03_Std": 4311,
+    "2013-03_ToU": 1101,
+    "2013-04_Std": 4286,
+    "2013-04_ToU": 1096,
+    "2013-05_Std": 4261,
+    "2013-05_ToU": 1091,
+    "2013-06_Std": 4242,
+    "2013-06_ToU": 1086,
+    "2013-07_Std": 4213,
+    "2013-07_ToU": 1075,
+    "2013-08_Std": 4178,
+    "2013-08_ToU": 1063,
+    "2013-09_Std": 4153,
+    "2013-09_ToU": 1055,
+    "2013-10_Std": 4138,
+    "2013-10_ToU": 1048,
+    "2013-11_Std": 4084,
+    "2013-11_ToU": 1045,
+    "2013-12_Std": 4056,
+    "2013-12_ToU": 1039
+  },
+  "kwh_rows_with_more_than_3_decimals": 898623,
+  "panel_columns": [
+    "lclid",
+    "group",
+    "month",
+    "year",
+    "post",
+    "halfhours_observed",
+    "halfhours_expected",
+    "duplicates_collapsed",
+    "kwh_total",
+    "kwh_high",
+    "kwh_normal",
+    "kwh_low",
+    "cost_flat_gbp",
+    "cost_dtou_gbp",
+    "cost_own_gbp"
+  ],
+  "panel_rows": 84713,
+  "rules": {
+    "duplicates": "collapsed to their mean, one observed half-hour",
+    "min_share_observed": 0.8,
+    "min_valid_months_per_year": 6,
+    "schedule_2012": "2013 bands mapped by calendar date and clock time, 29 February 2012 takes 28 February 2013",
+    "window": [
+      "2012-01-01 00:00:00",
+      "2014-01-01 00:00:00"
+    ]
+  },
+  "valid_months_per_household": {
+    "Std": {
+      "max": 24,
+      "mean": 19.98259073473001,
+      "min": 12
+    },
+    "ToU": {
+      "max": 24,
+      "mean": 19.7122969837587,
+      "min": 12
+    }
+  },
+  "variant": "schedule shifted to GMT during British Summer Time before the join (DEVIATIONS.md D1)"
+}

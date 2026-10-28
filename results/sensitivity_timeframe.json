@@ -1,0 +1,157 @@
+{
+  "counts_shifted": {
+    "household_months": 84713,
+    "households_Std": 3389,
+    "households_ToU": 862,
+    "months_post": 12,
+    "months_pre": 12
+  },
+  "outcomes": {
+    "O1": {
+      "label": "monthly cost at own tariff (£)",
+      "pre_registered_did": {
+        "att": -2.3993,
+        "att_pct_of_pre_mean": -6.03,
+        "ci_high": -1.7344,
+        "ci_low": -3.0641
+      },
+      "shifted_ancova": {
+        "ci_high": -1.5855,
+        "ci_low": -2.8434,
+        "estimate": -2.2144,
+        "n_households": 4251,
+        "p": 0.0,
+        "pre_coefficient": 1.0111,
+        "se": 0.3209
+      },
+      "shifted_did": {
+        "att": -2.3949,
+        "att_pct_of_pre_mean": -6.02,
+        "ci_high": -1.7297,
+        "ci_low": -3.06,
+        "n_households": 4251,
+        "n_obs": 84713,
+        "p": 0.0,
+        "se": 0.3394,
+        "tou_pre_mean": 39.7583
+      }
+    },
+    "O2": {
+      "label": "monthly kWh in High-price half-hours",
+      "pre_registered_did": {
+        "att": -1.4621,
+        "att_pct_of_pre_mean": -10.04,
+        "ci_high": -1.1509,
+        "ci_low": -1.7733
+      },
+      "shifted_ancova": {
+        "ci_high": -1.0214,
+        "ci_low": -1.6214,
+        "estimate": -1.3214,
+        "n_households": 4251,
+        "p": 0.0,
+        "pre_coefficient": 1.0321,
+        "se": 0.1531
+      },
+      "shifted_did": {
+        "att": -1.4591,
+        "att_pct_of_pre_mean": -10.01,
+        "ci_high": -1.1476,
+        "ci_low": -1.7705,
+        "n_households": 4251,
+        "n_obs": 84713,
+        "p": 0.0,
+        "se": 0.1589,
+        "tou_pre_mean": 14.58
+      }
+    },
+    "O3": {
+      "label": "monthly cost at the dToU schedule (£)",
+      "pre_registered_did": {
+        "att": -1.9371,
+        "att_pct_of_pre_mean": -4.96,
+        "ci_high": -1.2753,
+        "ci_low": -2.5989
+      },
+      "shifted_ancova": {
+        "ci_high": -1.1206,
+        "ci_low": -2.3682,
+        "estimate": -1.7444,
+        "n_households": 4251,
+        "p": 0.0,
+        "pre_coefficient": 1.0175,
+        "se": 0.3183
+      },
+      "shifted_did": {
+        "att": -1.9356,
+        "att_pct_of_pre_mean": -4.95,
+        "ci_high": -1.2735,
+        "ci_low": -2.5978,
+        "n_households": 4251,
+        "n_obs": 84713,
+        "p": 0.0,
+        "se": 0.3379,
+        "tou_pre_mean": 39.0815
+      }
+    },
+    "O4": {
+      "label": "total monthly kWh",
+      "pre_registered_did": {
+        "att": -9.2806,
+        "att_pct_of_pre_mean": -3.32,
+        "ci_high": -4.6544,
+        "ci_low": -13.9069
+      },
+      "shifted_ancova": {
+        "ci_high": -3.8021,
+        "ci_low": -12.5039,
+        "estimate": -8.153,
+        "n_households": 4251,
+        "p": 0.00024,
+        "pre_coefficient": 1.0148,
+        "se": 2.2199
+      },
+      "shifted_did": {
+        "att": -9.2806,
+        "att_pct_of_pre_mean": -3.32,
+        "ci_high": -4.6544,
+        "ci_low": -13.9069,
+        "n_households": 4251,
+        "n_obs": 84713,
+        "p": 8.4e-05,
+        "se": 2.3604,
+        "tou_pre_mean": 279.4369
+      }
+    },
+    "O5": {
+      "label": "monthly kWh in Low-price half-hours",
+      "pre_registered_did": {
+        "att": 0.4519,
+        "att_pct_of_pre_mean": 1.88,
+        "ci_high": 0.9975,
+        "ci_low": -0.0937
+      },
+      "shifted_ancova": {
+        "ci_high": 1.3142,
+        "ci_low": 0.3366,
+        "estimate": 0.8254,
+        "n_households": 4251,
+        "p": 0.000934,
+        "pre_coefficient": 1.0818,
+        "se": 0.2494
+      },
+      "shifted_did": {
+        "att": 0.4546,
+        "att_pct_of_pre_mean": 1.9,
+        "ci_high": 0.9991,
+        "ci_low": -0.0898,
+        "n_households": 4251,
+        "n_obs": 84713,
+        "p": 0.101672,
+        "se": 0.2778,
+        "tou_pre_mean": 23.9821
+      }
+    }
+  },
+  "what": "schedule re-labelled to GMT during British Summer Time before the join, everything else as pre-registered"
+}

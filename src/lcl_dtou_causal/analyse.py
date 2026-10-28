@@ -356,6 +356,35 @@ def run_full(permutations: int = 500, deviation: str | None = None) -> int:
     return 0
 
 
+def run_sensitivity_timeframe(deviation: str | None = None) -> int:
+    """DiD and the check estimator on the panel built with the schedule shifted to GMT during British Summer
+    Time. A documented stretch outside the pre-registered Results table (DEVIATIONS.md D1)."""
+    from .common import PANEL_BST_SHIFT
+
+    prereg.require_frozen(deviation)
+    if not PANEL_BST_SHIFT.exists():
+        raise SystemExit("run `python -m lcl_dtou_causal panel --variant bst-shift` first")
+    base = load_panel()
+    shifted = load_panel(PANEL_BST_SHIFT)
+    out = {
+        "what": "schedule re-labelled to GMT during British Summer Time before the join, everything else as pre-registered",
+        "counts_shifted": counts(shifted),
+        "outcomes": {},
+    }
+    for key, (y, label) in OUTCOMES.items():
+        out["outcomes"][key] = {
+            "label": label,
+            "pre_registered_did": {k: did_outcome(base, y)[k] for k in ("att", "ci_low", "ci_high", "att_pct_of_pre_mean")},
+            "shifted_did": did_outcome(shifted, y),
+            "shifted_ancova": ancova(shifted, y),
+        }
+    write_json(RESULTS / "sensitivity_timeframe.json", out)
+    for key in PRIMARY:
+        o = out["outcomes"][key]
+        print(f"{key}: pre-registered ATT {o['pre_registered_did']['att']} shifted ATT {o['shifted_did']['att']} [{o['shifted_did']['ci_low']}, {o['shifted_did']['ci_high']}]")
+    return 0
+
+
 def run_smoke(n_tou: int = 150, n_std: int = 150, permutations: int = 100) -> int:
     st = prereg.require_frozen()
     t0 = time.time()
