@@ -16,6 +16,7 @@ models/
 *.bin
 *.ckpt
 *.parquet
+!data/derived/*.parquet
 *.duckdb
 *.csv.gz
 .pytest_cache/
