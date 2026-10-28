@@ -1,0 +1,57 @@
+{
+  "O1": {
+    "ci_high": -1.5888,
+    "ci_low": -2.846,
+    "estimate": -2.2174,
+    "label": "monthly cost at own tariff (£)",
+    "n_households": 4251,
+    "p": 0.0,
+    "pre_coefficient": 1.0111,
+    "same_sign_as_did": true,
+    "se": 0.3207
+  },
+  "O2": {
+    "ci_high": -1.0232,
+    "ci_low": -1.6228,
+    "estimate": -1.323,
+    "label": "monthly kWh in High-price half-hours",
+    "n_households": 4251,
+    "p": 0.0,
+    "pre_coefficient": 1.0326,
+    "same_sign_as_did": true,
+    "se": 0.153
+  },
+  "O3": {
+    "ci_high": -1.1212,
+    "ci_low": -2.368,
+    "estimate": -1.7446,
+    "label": "monthly cost at the dToU schedule (£)",
+    "n_households": 4251,
+    "p": 0.0,
+    "pre_coefficient": 1.0177,
+    "same_sign_as_did": true,
+    "se": 0.3181
+  },
+  "O4": {
+    "ci_high": -3.8021,
+    "ci_low": -12.5039,
+    "estimate": -8.153,
+    "label": "total monthly kWh",
+    "n_households": 4251,
+    "p": 0.00024,
+    "pre_coefficient": 1.0148,
+    "same_sign_as_did": true,
+    "se": 2.2199
+  },
+  "O5": {
+    "ci_high": 1.3096,
+    "ci_low": 0.3294,
+    "estimate": 0.8195,
+    "label": "monthly kWh in Low-price half-hours",
+    "n_households": 4251,
+    "p": 0.001047,
+    "pre_coefficient": 1.081,
+    "same_sign_as_did": true,
+    "se": 0.25
+  }
+}

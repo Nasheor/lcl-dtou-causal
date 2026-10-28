@@ -1,0 +1,52 @@
+{
+  "O1": {
+    "difference": -3.0241,
+    "households_Std": 3389,
+    "households_ToU": 862,
+    "label": "monthly cost at own tariff (£)",
+    "mean_Std": 42.7824,
+    "mean_ToU": 39.7583,
+    "welch_p": 0.002362,
+    "welch_t": -3.0456
+  },
+  "O2": {
+    "difference": -0.8174,
+    "households_Std": 3389,
+    "households_ToU": 862,
+    "label": "monthly kWh in High-price half-hours",
+    "mean_Std": 15.3865,
+    "mean_ToU": 14.5691,
+    "welch_p": 0.019094,
+    "welch_t": -2.3463
+  },
+  "O3": {
+    "difference": -2.7685,
+    "households_Std": 3389,
+    "households_ToU": 862,
+    "label": "monthly cost at the dToU schedule (£)",
+    "mean_Std": 41.8422,
+    "mean_ToU": 39.0738,
+    "welch_p": 0.003955,
+    "welch_t": -2.8862
+  },
+  "O4": {
+    "difference": -21.2545,
+    "households_Std": 3389,
+    "households_ToU": 862,
+    "label": "total monthly kWh",
+    "mean_Std": 300.6914,
+    "mean_ToU": 279.4369,
+    "welch_p": 0.002362,
+    "welch_t": -3.0456
+  },
+  "O5": {
+    "difference": -2.3707,
+    "households_Std": 3389,
+    "households_ToU": 862,
+    "label": "monthly kWh in Low-price half-hours",
+    "mean_Std": 26.3752,
+    "mean_ToU": 24.0045,
+    "welch_p": 0.000555,
+    "welch_t": -3.4594
+  }
+}

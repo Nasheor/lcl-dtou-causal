@@ -1,0 +1,86 @@
+{
+  "cut_points_kwh_month": [
+    184.9458,
+    321.2009
+  ],
+  "terciles": {
+    "T1_low": {
+      "O1": {
+        "att": -1.2035,
+        "att_pct_of_pre_mean": -6.72,
+        "ci_high": -0.7459,
+        "ci_low": -1.6611,
+        "n_households": 1417,
+        "n_obs": 28064,
+        "p": 0.0,
+        "se": 0.2335,
+        "tou_pre_mean": 17.904
+      },
+      "O2": {
+        "att": -0.6354,
+        "att_pct_of_pre_mean": -9.82,
+        "ci_high": -0.4047,
+        "ci_low": -0.8662,
+        "n_households": 1417,
+        "n_obs": 28064,
+        "p": 0.0,
+        "se": 0.1177,
+        "tou_pre_mean": 6.47
+      },
+      "households_Std": 1115,
+      "households_ToU": 302
+    },
+    "T2_mid": {
+      "O1": {
+        "att": -1.5643,
+        "att_pct_of_pre_mean": -4.46,
+        "ci_high": -0.7521,
+        "ci_low": -2.3765,
+        "n_households": 1417,
+        "n_obs": 28273,
+        "p": 0.00016,
+        "se": 0.4144,
+        "tou_pre_mean": 35.056
+      },
+      "O2": {
+        "att": -1.1266,
+        "att_pct_of_pre_mean": -8.78,
+        "ci_high": -0.7603,
+        "ci_low": -1.4929,
+        "n_households": 1417,
+        "n_obs": 28273,
+        "p": 0.0,
+        "se": 0.1869,
+        "tou_pre_mean": 12.83
+      },
+      "households_Std": 1108,
+      "households_ToU": 309
+    },
+    "T3_high": {
+      "O1": {
+        "att": -4.511,
+        "att_pct_of_pre_mean": -6.39,
+        "ci_high": -2.6425,
+        "ci_low": -6.3796,
+        "n_households": 1417,
+        "n_obs": 28376,
+        "p": 2e-06,
+        "se": 0.9534,
+        "tou_pre_mean": 70.6475
+      },
+      "O2": {
+        "att": -2.6244,
+        "att_pct_of_pre_mean": -10.09,
+        "ci_high": -1.748,
+        "ci_low": -3.5009,
+        "n_households": 1417,
+        "n_obs": 28376,
+        "p": 0.0,
+        "se": 0.4472,
+        "tou_pre_mean": 26.0124
+      },
+      "households_Std": 1166,
+      "households_ToU": 251
+    }
+  }
+}

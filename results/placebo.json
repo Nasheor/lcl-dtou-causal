@@ -1,0 +1,48 @@
+{
+  "O1": {
+    "label": "monthly cost at own tariff (£)",
+    "permutation": {
+      "fast_minus_panelols": 0.0,
+      "n_permutations": 500,
+      "observed_fast_estimate": -2.3993,
+      "p": 0.0,
+      "permuted_abs_mean": 0.3113,
+      "permuted_abs_p95": 0.7665,
+      "seed": 20261028
+    },
+    "placebo_date": {
+      "att": 0.416,
+      "ci_high": 1.352,
+      "ci_low": -0.5199,
+      "covers_zero": true,
+      "n_households": 4251,
+      "n_obs": 34483,
+      "p": 0.383658,
+      "placebo_month": "2012-07",
+      "se": 0.4775
+    }
+  },
+  "O2": {
+    "label": "monthly kWh in High-price half-hours",
+    "permutation": {
+      "fast_minus_panelols": 0.0,
+      "n_permutations": 500,
+      "observed_fast_estimate": -1.4621,
+      "p": 0.0,
+      "permuted_abs_mean": 0.1394,
+      "permuted_abs_p95": 0.3447,
+      "seed": 20261028
+    },
+    "placebo_date": {
+      "att": 0.5413,
+      "ci_high": 1.167,
+      "ci_low": -0.0843,
+      "covers_zero": true,
+      "n_households": 4251,
+      "n_obs": 34483,
+      "p": 0.089937,
+      "placebo_month": "2012-07",
+      "se": 0.3192
+    }
+  }
+}

@@ -1,0 +1,1162 @@
+{
+  "O1": {
+    "coefficients": [
+      {
+        "ci_high": 5.1989,
+        "ci_low": -3.9868,
+        "coef": 0.6061,
+        "month": "2012-01",
+        "reference": false,
+        "se": 2.3433
+      },
+      {
+        "ci_high": 3.5968,
+        "ci_low": -4.2264,
+        "coef": -0.3148,
+        "month": "2012-02",
+        "reference": false,
+        "se": 1.9958
+      },
+      {
+        "ci_high": 5.0545,
+        "ci_low": -0.7226,
+        "coef": 2.166,
+        "month": "2012-03",
+        "reference": false,
+        "se": 1.4738
+      },
+      {
+        "ci_high": 3.2455,
+        "ci_low": -1.1133,
+        "coef": 1.0661,
+        "month": "2012-04",
+        "reference": false,
+        "se": 1.112
+      },
+      {
+        "ci_high": 3.2006,
+        "ci_low": -1.1434,
+        "coef": 1.0286,
+        "month": "2012-05",
+        "reference": false,
+        "se": 1.1082
+      },
+      {
+        "ci_high": 3.6821,
+        "ci_low": -0.7774,
+        "coef": 1.4523,
+        "month": "2012-06",
+        "reference": false,
+        "se": 1.1377
+      },
+      {
+        "ci_high": 3.9929,
+        "ci_low": -0.4223,
+        "coef": 1.7853,
+        "month": "2012-07",
+        "reference": false,
+        "se": 1.1264
+      },
+      {
+        "ci_high": 4.2382,
+        "ci_low": -0.3551,
+        "coef": 1.9415,
+        "month": "2012-08",
+        "reference": false,
+        "se": 1.1718
+      },
+      {
+        "ci_high": 3.6056,
+        "ci_low": -0.5034,
+        "coef": 1.5511,
+        "month": "2012-09",
+        "reference": false,
+        "se": 1.0482
+      },
+      {
+        "ci_high": 3.3938,
+        "ci_low": 0.2428,
+        "coef": 1.8183,
+        "month": "2012-10",
+        "reference": false,
+        "se": 0.8038
+      },
+      {
+        "ci_high": 2.3348,
+        "ci_low": 0.0626,
+        "coef": 1.1987,
+        "month": "2012-11",
+        "reference": false,
+        "se": 0.5797
+      },
+      {
+        "ci_high": 0.0,
+        "ci_low": 0.0,
+        "coef": 0.0,
+        "month": "2012-12",
+        "reference": true,
+        "se": 0.0
+      },
+      {
+        "ci_high": -3.1183,
+        "ci_low": -5.502,
+        "coef": -4.3102,
+        "month": "2013-01",
+        "reference": false,
+        "se": 0.6081
+      },
+      {
+        "ci_high": 3.2265,
+        "ci_low": 0.5483,
+        "coef": 1.8874,
+        "month": "2013-02",
+        "reference": false,
+        "se": 0.6832
+      },
+      {
+        "ci_high": -1.4056,
+        "ci_low": -4.0315,
+        "coef": -2.7186,
+        "month": "2013-03",
+        "reference": false,
+        "se": 0.6699
+      },
+      {
+        "ci_high": -1.4907,
+        "ci_low": -4.5165,
+        "coef": -3.0036,
+        "month": "2013-04",
+        "reference": false,
+        "se": 0.7719
+      },
+      {
+        "ci_high": 2.1906,
+        "ci_low": -1.5362,
+        "coef": 0.3272,
+        "month": "2013-05",
+        "reference": false,
+        "se": 0.9507
+      },
+      {
+        "ci_high": 6.8125,
+        "ci_low": 2.6795,
+        "coef": 4.746,
+        "month": "2013-06",
+        "reference": false,
+        "se": 1.0544
+      },
+      {
+        "ci_high": -0.3515,
+        "ci_low": -5.0901,
+        "coef": -2.7208,
+        "month": "2013-07",
+        "reference": false,
+        "se": 1.2088
+      },
+      {
+        "ci_high": -1.239,
+        "ci_low": -6.1432,
+        "coef": -3.6911,
+        "month": "2013-08",
+        "reference": false,
+        "se": 1.2511
+      },
+      {
+        "ci_high": 0.3827,
+        "ci_low": -4.0253,
+        "coef": -1.8213,
+        "month": "2013-09",
+        "reference": false,
+        "se": 1.1245
+      },
+      {
+        "ci_high": 0.5512,
+        "ci_low": -3.5283,
+        "coef": -1.4885,
+        "month": "2013-10",
+        "reference": false,
+        "se": 1.0407
+      },
+      {
+        "ci_high": -0.8125,
+        "ci_low": -4.1653,
+        "coef": -2.4889,
+        "month": "2013-11",
+        "reference": false,
+        "se": 0.8553
+      },
+      {
+        "ci_high": 4.3202,
+        "ci_low": 0.9165,
+        "coef": 2.6184,
+        "month": "2013-12",
+        "reference": false,
+        "se": 0.8683
+      }
+    ],
+    "label": "monthly cost at own tariff (£)",
+    "n_obs": 84713,
+    "post_months": [
+      "2013-01",
+      "2013-02",
+      "2013-03",
+      "2013-04",
+      "2013-05",
+      "2013-06",
+      "2013-07",
+      "2013-08",
+      "2013-09",
+      "2013-10",
+      "2013-11",
+      "2013-12"
+    ],
+    "pre_months": [
+      "2012-01",
+      "2012-02",
+      "2012-03",
+      "2012-04",
+      "2012-05",
+      "2012-06",
+      "2012-07",
+      "2012-08",
+      "2012-09",
+      "2012-10",
+      "2012-11",
+      "2012-12"
+    ],
+    "pretrend_df": 11,
+    "pretrend_f": 1.3188,
+    "pretrend_p_chi2": 0.206202,
+    "pretrend_p_f": 0.206675,
+    "pretrend_wald_chi2": 14.5069,
+    "reference_month": "2012-12"
+  },
+  "O2": {
+    "coefficients": [
+      {
+        "ci_high": 2.5193,
+        "ci_low": -1.2722,
+        "coef": 0.6236,
+        "month": "2012-01",
+        "reference": false,
+        "se": 0.9673
+      },
+      {
+        "ci_high": 3.8202,
+        "ci_low": -1.3037,
+        "coef": 1.2582,
+        "month": "2012-02",
+        "reference": false,
+        "se": 1.3071
+      },
+      {
+        "ci_high": 4.3389,
+        "ci_low": 0.8596,
+        "coef": 2.5992,
+        "month": "2012-03",
+        "reference": false,
+        "se": 0.8876
+      },
+      {
+        "ci_high": 2.9742,
+        "ci_low": -0.4686,
+        "coef": 1.2528,
+        "month": "2012-04",
+        "reference": false,
+        "se": 0.8783
+      },
+      {
+        "ci_high": 2.2275,
+        "ci_low": -0.7678,
+        "coef": 0.7299,
+        "month": "2012-05",
+        "reference": false,
+        "se": 0.7641
+      },
+      {
+        "ci_high": 1.3067,
+        "ci_low": -1.6534,
+        "coef": -0.1734,
+        "month": "2012-06",
+        "reference": false,
+        "se": 0.7551
+      },
+      {
+        "ci_high": 3.0599,
+        "ci_low": -0.5678,
+        "coef": 1.246,
+        "month": "2012-07",
+        "reference": false,
+        "se": 0.9254
+      },
+      {
+        "ci_high": 3.4017,
+        "ci_low": -0.4892,
+        "coef": 1.4563,
+        "month": "2012-08",
+        "reference": false,
+        "se": 0.9926
+      },
+      {
+        "ci_high": 2.6012,
+        "ci_low": -0.8283,
+        "coef": 0.8865,
+        "month": "2012-09",
+        "reference": false,
+        "se": 0.8749
+      },
+      {
+        "ci_high": 2.2404,
+        "ci_low": -0.6538,
+        "coef": 0.7933,
+        "month": "2012-10",
+        "reference": false,
+        "se": 0.7383
+      },
+      {
+        "ci_high": 2.3344,
+        "ci_low": -0.0572,
+        "coef": 1.1386,
+        "month": "2012-11",
+        "reference": false,
+        "se": 0.6101
+      },
+      {
+        "ci_high": 0.0,
+        "ci_low": 0.0,
+        "coef": 0.0,
+        "month": "2012-12",
+        "reference": true,
+        "se": 0.0
+      },
+      {
+        "ci_high": 0.0851,
+        "ci_low": -2.4643,
+        "coef": -1.1896,
+        "month": "2013-01",
+        "reference": false,
+        "se": 0.6504
+      },
+      {
+        "ci_high": -1.6675,
+        "ci_low": -3.8865,
+        "coef": -2.777,
+        "month": "2013-02",
+        "reference": false,
+        "se": 0.5661
+      },
+      {
+        "ci_high": -0.0643,
+        "ci_low": -2.3083,
+        "coef": -1.1863,
+        "month": "2013-03",
+        "reference": false,
+        "se": 0.5725
+      },
+      {
+        "ci_high": 1.9035,
+        "ci_low": -1.2514,
+        "coef": 0.3261,
+        "month": "2013-04",
+        "reference": false,
+        "se": 0.8048
+      },
+      {
+        "ci_high": 0.6074,
+        "ci_low": -2.2948,
+        "coef": -0.8437,
+        "month": "2013-05",
+        "reference": false,
+        "se": 0.7404
+      },
+      {
+        "ci_high": -0.2437,
+        "ci_low": -3.1093,
+        "coef": -1.6765,
+        "month": "2013-06",
+        "reference": false,
+        "se": 0.731
+      },
+      {
+        "ci_high": 2.664,
+        "ci_low": -1.0074,
+        "coef": 0.8283,
+        "month": "2013-07",
+        "reference": false,
+        "se": 0.9366
+      },
+      {
+        "ci_high": 3.3335,
+        "ci_low": -0.5678,
+        "coef": 1.3829,
+        "month": "2013-08",
+        "reference": false,
+        "se": 0.9952
+      },
+      {
+        "ci_high": 2.3535,
+        "ci_low": -1.135,
+        "coef": 0.6092,
+        "month": "2013-09",
+        "reference": false,
+        "se": 0.8899
+      },
+      {
+        "ci_high": 0.9119,
+        "ci_low": -2.1677,
+        "coef": -0.6279,
+        "month": "2013-10",
+        "reference": false,
+        "se": 0.7856
+      },
+      {
+        "ci_high": 0.6904,
+        "ci_low": -2.04,
+        "coef": -0.6748,
+        "month": "2013-11",
+        "reference": false,
+        "se": 0.6966
+      },
+      {
+        "ci_high": -0.4754,
+        "ci_low": -2.7651,
+        "coef": -1.6203,
+        "month": "2013-12",
+        "reference": false,
+        "se": 0.5841
+      }
+    ],
+    "label": "monthly kWh in High-price half-hours",
+    "n_obs": 84713,
+    "post_months": [
+      "2013-01",
+      "2013-02",
+      "2013-03",
+      "2013-04",
+      "2013-05",
+      "2013-06",
+      "2013-07",
+      "2013-08",
+      "2013-09",
+      "2013-10",
+      "2013-11",
+      "2013-12"
+    ],
+    "pre_months": [
+      "2012-01",
+      "2012-02",
+      "2012-03",
+      "2012-04",
+      "2012-05",
+      "2012-06",
+      "2012-07",
+      "2012-08",
+      "2012-09",
+      "2012-10",
+      "2012-11",
+      "2012-12"
+    ],
+    "pretrend_df": 11,
+    "pretrend_f": 2.6877,
+    "pretrend_p_chi2": 0.001854,
+    "pretrend_p_f": 0.001902,
+    "pretrend_wald_chi2": 29.5644,
+    "reference_month": "2012-12"
+  },
+  "O3": {
+    "coefficients": [
+      {
+        "ci_high": 4.5488,
+        "ci_low": -3.7774,
+        "coef": 0.3857,
+        "month": "2012-01",
+        "reference": false,
+        "se": 2.1241
+      },
+      {
+        "ci_high": 4.0886,
+        "ci_low": -4.1214,
+        "coef": -0.0164,
+        "month": "2012-02",
+        "reference": false,
+        "se": 2.0944
+      },
+      {
+        "ci_high": 5.7616,
+        "ci_low": -0.0879,
+        "coef": 2.8369,
+        "month": "2012-03",
+        "reference": false,
+        "se": 1.4923
+      },
+      {
+        "ci_high": 3.3193,
+        "ci_low": -1.2975,
+        "coef": 1.0109,
+        "month": "2012-04",
+        "reference": false,
+        "se": 1.1778
+      },
+      {
+        "ci_high": 3.2161,
+        "ci_low": -1.395,
+        "coef": 0.9106,
+        "month": "2012-05",
+        "reference": false,
+        "se": 1.1763
+      },
+      {
+        "ci_high": 3.0,
+        "ci_low": -1.6307,
+        "coef": 0.6846,
+        "month": "2012-06",
+        "reference": false,
+        "se": 1.1813
+      },
+      {
+        "ci_high": 4.1799,
+        "ci_low": -0.6972,
+        "coef": 1.7413,
+        "month": "2012-07",
+        "reference": false,
+        "se": 1.2442
+      },
+      {
+        "ci_high": 4.524,
+        "ci_low": -0.583,
+        "coef": 1.9705,
+        "month": "2012-08",
+        "reference": false,
+        "se": 1.3028
+      },
+      {
+        "ci_high": 3.554,
+        "ci_low": -0.9368,
+        "coef": 1.3086,
+        "month": "2012-09",
+        "reference": false,
+        "se": 1.1456
+      },
+      {
+        "ci_high": 3.3147,
+        "ci_low": -0.1782,
+        "coef": 1.5682,
+        "month": "2012-10",
+        "reference": false,
+        "se": 0.8911
+      },
+      {
+        "ci_high": 2.6357,
+        "ci_low": 0.0241,
+        "coef": 1.3299,
+        "month": "2012-11",
+        "reference": false,
+        "se": 0.6662
+      },
+      {
+        "ci_high": 0.0,
+        "ci_low": 0.0,
+        "coef": 0.0,
+        "month": "2012-12",
+        "reference": true,
+        "se": 0.0
+      },
+      {
+        "ci_high": -0.4725,
+        "ci_low": -3.0757,
+        "coef": -1.7741,
+        "month": "2013-01",
+        "reference": false,
+        "se": 0.6641
+      },
+      {
+        "ci_high": -0.83,
+        "ci_low": -3.7597,
+        "coef": -2.2949,
+        "month": "2013-02",
+        "reference": false,
+        "se": 0.7474
+      },
+      {
+        "ci_high": -0.119,
+        "ci_low": -2.9523,
+        "coef": -1.5357,
+        "month": "2013-03",
+        "reference": false,
+        "se": 0.7228
+      },
+      {
+        "ci_high": 1.1142,
+        "ci_low": -2.3536,
+        "coef": -0.6197,
+        "month": "2013-04",
+        "reference": false,
+        "se": 0.8846
+      },
+      {
+        "ci_high": 1.4304,
+        "ci_low": -2.6402,
+        "coef": -0.6049,
+        "month": "2013-05",
+        "reference": false,
+        "se": 1.0384
+      },
+      {
+        "ci_high": 1.5565,
+        "ci_low": -2.8704,
+        "coef": -0.6569,
+        "month": "2013-06",
+        "reference": false,
+        "se": 1.1293
+      },
+      {
+        "ci_high": 3.41,
+        "ci_low": -1.6891,
+        "coef": 0.8605,
+        "month": "2013-07",
+        "reference": false,
+        "se": 1.3008
+      },
+      {
+        "ci_high": 4.2917,
+        "ci_low": -0.9851,
+        "coef": 1.6533,
+        "month": "2013-08",
+        "reference": false,
+        "se": 1.3461
+      },
+      {
+        "ci_high": 2.8077,
+        "ci_low": -1.9368,
+        "coef": 0.4354,
+        "month": "2013-09",
+        "reference": false,
+        "se": 1.2103
+      },
+      {
+        "ci_high": 1.4486,
+        "ci_low": -2.911,
+        "coef": -0.7312,
+        "month": "2013-10",
+        "reference": false,
+        "se": 1.1122
+      },
+      {
+        "ci_high": 0.2704,
+        "ci_low": -3.3425,
+        "coef": -1.5361,
+        "month": "2013-11",
+        "reference": false,
+        "se": 0.9217
+      },
+      {
+        "ci_high": -0.007,
+        "ci_low": -3.4903,
+        "coef": -1.7487,
+        "month": "2013-12",
+        "reference": false,
+        "se": 0.8886
+      }
+    ],
+    "label": "monthly cost at the dToU schedule (£)",
+    "n_obs": 84713,
+    "post_months": [
+      "2013-01",
+      "2013-02",
+      "2013-03",
+      "2013-04",
+      "2013-05",
+      "2013-06",
+      "2013-07",
+      "2013-08",
+      "2013-09",
+      "2013-10",
+      "2013-11",
+      "2013-12"
+    ],
+    "pre_months": [
+      "2012-01",
+      "2012-02",
+      "2012-03",
+      "2012-04",
+      "2012-05",
+      "2012-06",
+      "2012-07",
+      "2012-08",
+      "2012-09",
+      "2012-10",
+      "2012-11",
+      "2012-12"
+    ],
+    "pretrend_df": 11,
+    "pretrend_f": 2.0868,
+    "pretrend_p_chi2": 0.017935,
+    "pretrend_p_f": 0.018155,
+    "pretrend_wald_chi2": 22.955,
+    "reference_month": "2012-12"
+  },
+  "O4": {
+    "coefficients": [
+      {
+        "ci_high": 33.0381,
+        "ci_low": -30.854,
+        "coef": 1.092,
+        "month": "2012-01",
+        "reference": false,
+        "se": 16.2993
+      },
+      {
+        "ci_high": 22.7554,
+        "ci_low": -32.1982,
+        "coef": -4.7214,
+        "month": "2012-02",
+        "reference": false,
+        "se": 14.019
+      },
+      {
+        "ci_high": 33.0949,
+        "ci_low": -7.66,
+        "coef": 12.7174,
+        "month": "2012-03",
+        "reference": false,
+        "se": 10.3968
+      },
+      {
+        "ci_high": 21.4262,
+        "ci_low": -9.3262,
+        "coef": 6.05,
+        "month": "2012-04",
+        "reference": false,
+        "se": 7.8452
+      },
+      {
+        "ci_high": 21.9021,
+        "ci_low": -8.7248,
+        "coef": 6.5886,
+        "month": "2012-05",
+        "reference": false,
+        "se": 7.8131
+      },
+      {
+        "ci_high": 25.7163,
+        "ci_low": -5.6507,
+        "coef": 10.0328,
+        "month": "2012-06",
+        "reference": false,
+        "se": 8.0019
+      },
+      {
+        "ci_high": 28.0668,
+        "ci_low": -2.9653,
+        "coef": 12.5507,
+        "month": "2012-07",
+        "reference": false,
+        "se": 7.9165
+      },
+      {
+        "ci_high": 29.7905,
+        "ci_low": -2.4929,
+        "coef": 13.6488,
+        "month": "2012-08",
+        "reference": false,
+        "se": 8.2357
+      },
+      {
+        "ci_high": 25.3442,
+        "ci_low": -3.5354,
+        "coef": 10.9044,
+        "month": "2012-09",
+        "reference": false,
+        "se": 7.3674
+      },
+      {
+        "ci_high": 23.8555,
+        "ci_low": 1.7096,
+        "coef": 12.7826,
+        "month": "2012-10",
+        "reference": false,
+        "se": 5.6496
+      },
+      {
+        "ci_high": 16.413,
+        "ci_low": 0.443,
+        "coef": 8.428,
+        "month": "2012-11",
+        "reference": false,
+        "se": 4.074
+      },
+      {
+        "ci_high": 0.0,
+        "ci_low": 0.0,
+        "coef": 0.0,
+        "month": "2012-12",
+        "reference": true,
+        "se": 0.0
+      },
+      {
+        "ci_high": 2.2294,
+        "ci_low": -14.291,
+        "coef": -6.0308,
+        "month": "2013-01",
+        "reference": false,
+        "se": 4.2145
+      },
+      {
+        "ci_high": 5.4666,
+        "ci_low": -12.403,
+        "coef": -3.4682,
+        "month": "2013-02",
+        "reference": false,
+        "se": 4.5587
+      },
+      {
+        "ci_high": 2.717,
+        "ci_low": -15.7234,
+        "coef": -6.5032,
+        "month": "2013-03",
+        "reference": false,
+        "se": 4.7043
+      },
+      {
+        "ci_high": 7.4731,
+        "ci_low": -12.9634,
+        "coef": -2.7452,
+        "month": "2013-04",
+        "reference": false,
+        "se": 5.2135
+      },
+      {
+        "ci_high": 14.8877,
+        "ci_low": -11.2564,
+        "coef": 1.8157,
+        "month": "2013-05",
+        "reference": false,
+        "se": 6.6695
+      },
+      {
+        "ci_high": 21.1798,
+        "ci_low": -8.4033,
+        "coef": 6.3882,
+        "month": "2013-06",
+        "reference": false,
+        "se": 7.5469
+      },
+      {
+        "ci_high": 23.7511,
+        "ci_low": -8.9643,
+        "coef": 7.3934,
+        "month": "2013-07",
+        "reference": false,
+        "se": 8.3459
+      },
+      {
+        "ci_high": 28.58,
+        "ci_low": -5.0751,
+        "coef": 11.7524,
+        "month": "2013-08",
+        "reference": false,
+        "se": 8.5856
+      },
+      {
+        "ci_high": 20.4009,
+        "ci_low": -10.2855,
+        "coef": 5.0577,
+        "month": "2013-09",
+        "reference": false,
+        "se": 7.8283
+      },
+      {
+        "ci_high": 14.5539,
+        "ci_low": -14.0199,
+        "coef": 0.267,
+        "month": "2013-10",
+        "reference": false,
+        "se": 7.2894
+      },
+      {
+        "ci_high": 4.4702,
+        "ci_low": -18.7966,
+        "coef": -7.1632,
+        "month": "2013-11",
+        "reference": false,
+        "se": 5.9355
+      },
+      {
+        "ci_high": 4.2237,
+        "ci_low": -18.6444,
+        "coef": -7.2103,
+        "month": "2013-12",
+        "reference": false,
+        "se": 5.8338
+      }
+    ],
+    "label": "total monthly kWh",
+    "n_obs": 84713,
+    "post_months": [
+      "2013-01",
+      "2013-02",
+      "2013-03",
+      "2013-04",
+      "2013-05",
+      "2013-06",
+      "2013-07",
+      "2013-08",
+      "2013-09",
+      "2013-10",
+      "2013-11",
+      "2013-12"
+    ],
+    "pre_months": [
+      "2012-01",
+      "2012-02",
+      "2012-03",
+      "2012-04",
+      "2012-05",
+      "2012-06",
+      "2012-07",
+      "2012-08",
+      "2012-09",
+      "2012-10",
+      "2012-11",
+      "2012-12"
+    ],
+    "pretrend_df": 11,
+    "pretrend_f": 1.3137,
+    "pretrend_p_chi2": 0.209029,
+    "pretrend_p_f": 0.2095,
+    "pretrend_wald_chi2": 14.4511,
+    "reference_month": "2012-12"
+  },
+  "O5": {
+    "coefficients": [
+      {
+        "ci_high": 5.7,
+        "ci_low": -3.4235,
+        "coef": 1.1382,
+        "month": "2012-01",
+        "reference": false,
+        "se": 2.3275
+      },
+      {
+        "ci_high": 7.1239,
+        "ci_low": -3.0382,
+        "coef": 2.0428,
+        "month": "2012-02",
+        "reference": false,
+        "se": 2.5924
+      },
+      {
+        "ci_high": 5.7472,
+        "ci_low": -3.1801,
+        "coef": 1.2836,
+        "month": "2012-03",
+        "reference": false,
+        "se": 2.2774
+      },
+      {
+        "ci_high": 9.3366,
+        "ci_low": 0.8333,
+        "coef": 5.085,
+        "month": "2012-04",
+        "reference": false,
+        "se": 2.1693
+      },
+      {
+        "ci_high": 7.0643,
+        "ci_low": -0.143,
+        "coef": 3.4606,
+        "month": "2012-05",
+        "reference": false,
+        "se": 1.8386
+      },
+      {
+        "ci_high": 8.9589,
+        "ci_low": 1.3142,
+        "coef": 5.1365,
+        "month": "2012-06",
+        "reference": false,
+        "se": 1.9502
+      },
+      {
+        "ci_high": 9.3353,
+        "ci_low": 1.6145,
+        "coef": 5.4749,
+        "month": "2012-07",
+        "reference": false,
+        "se": 1.9696
+      },
+      {
+        "ci_high": 9.7136,
+        "ci_low": 1.6622,
+        "coef": 5.6879,
+        "month": "2012-08",
+        "reference": false,
+        "se": 2.054
+      },
+      {
+        "ci_high": 10.1352,
+        "ci_low": 1.8398,
+        "coef": 5.9875,
+        "month": "2012-09",
+        "reference": false,
+        "se": 2.1162
+      },
+      {
+        "ci_high": 8.2921,
+        "ci_low": 1.3553,
+        "coef": 4.8237,
+        "month": "2012-10",
+        "reference": false,
+        "se": 1.7696
+      },
+      {
+        "ci_high": 6.3418,
+        "ci_low": 1.1867,
+        "coef": 3.7642,
+        "month": "2012-11",
+        "reference": false,
+        "se": 1.3151
+      },
+      {
+        "ci_high": 0.0,
+        "ci_low": 0.0,
+        "coef": 0.0,
+        "month": "2012-12",
+        "reference": true,
+        "se": 0.0
+      },
+      {
+        "ci_high": 7.4086,
+        "ci_low": 3.0248,
+        "coef": 5.2167,
+        "month": "2013-01",
+        "reference": false,
+        "se": 1.1183
+      },
+      {
+        "ci_high": 6.5727,
+        "ci_low": 2.3696,
+        "coef": 4.4712,
+        "month": "2013-02",
+        "reference": false,
+        "se": 1.0722
+      },
+      {
+        "ci_high": 3.3306,
+        "ci_low": -0.4168,
+        "coef": 1.4569,
+        "month": "2013-03",
+        "reference": false,
+        "se": 0.956
+      },
+      {
+        "ci_high": 9.9999,
+        "ci_low": 2.2952,
+        "coef": 6.1475,
+        "month": "2013-04",
+        "reference": false,
+        "se": 1.9655
+      },
+      {
+        "ci_high": 7.9029,
+        "ci_low": 1.1232,
+        "coef": 4.513,
+        "month": "2013-05",
+        "reference": false,
+        "se": 1.7296
+      },
+      {
+        "ci_high": 9.8785,
+        "ci_low": 2.4445,
+        "coef": 6.1615,
+        "month": "2013-06",
+        "reference": false,
+        "se": 1.8965
+      },
+      {
+        "ci_high": 9.9298,
+        "ci_low": 2.1219,
+        "coef": 6.0259,
+        "month": "2013-07",
+        "reference": false,
+        "se": 1.9918
+      },
+      {
+        "ci_high": 10.4401,
+        "ci_low": 2.3137,
+        "coef": 6.3769,
+        "month": "2013-08",
+        "reference": false,
+        "se": 2.0731
+      },
+      {
+        "ci_high": 10.54,
+        "ci_low": 2.2553,
+        "coef": 6.3977,
+        "month": "2013-09",
+        "reference": false,
+        "se": 2.1135
+      },
+      {
+        "ci_high": 8.9117,
+        "ci_low": 1.758,
+        "coef": 5.3348,
+        "month": "2013-10",
+        "reference": false,
+        "se": 1.825
+      },
+      {
+        "ci_high": 7.0198,
+        "ci_low": 1.2057,
+        "coef": 4.1128,
+        "month": "2013-11",
+        "reference": false,
+        "se": 1.4832
+      },
+      {
+        "ci_high": 2.4698,
+        "ci_low": -2.4068,
+        "coef": 0.0315,
+        "month": "2013-12",
+        "reference": false,
+        "se": 1.2441
+      }
+    ],
+    "label": "monthly kWh in Low-price half-hours",
+    "n_obs": 84713,
+    "post_months": [
+      "2013-01",
+      "2013-02",
+      "2013-03",
+      "2013-04",
+      "2013-05",
+      "2013-06",
+      "2013-07",
+      "2013-08",
+      "2013-09",
+      "2013-10",
+      "2013-11",
+      "2013-12"
+    ],
+    "pre_months": [
+      "2012-01",
+      "2012-02",
+      "2012-03",
+      "2012-04",
+      "2012-05",
+      "2012-06",
+      "2012-07",
+      "2012-08",
+      "2012-09",
+      "2012-10",
+      "2012-11",
+      "2012-12"
+    ],
+    "pretrend_df": 11,
+    "pretrend_f": 1.6945,
+    "pretrend_p_chi2": 0.067871,
+    "pretrend_p_f": 0.068288,
+    "pretrend_wald_chi2": 18.6399,
+    "reference_month": "2012-12"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "O1": {
+    "att": -2.3993,
+    "att_pct_of_pre_mean": -6.03,
+    "ci_high": -1.7344,
+    "ci_low": -3.0641,
+    "label": "monthly cost at own tariff (£)",
+    "n_households": 4251,
+    "n_obs": 84713,
+    "p": 0.0,
+    "se": 0.3392,
+    "tou_pre_mean": 39.7583
+  },
+  "O2": {
+    "att": -1.4621,
+    "att_pct_of_pre_mean": -10.04,
+    "ci_high": -1.1509,
+    "ci_low": -1.7733,
+    "label": "monthly kWh in High-price half-hours",
+    "n_households": 4251,
+    "n_obs": 84713,
+    "p": 0.0,
+    "se": 0.1588,
+    "tou_pre_mean": 14.5691
+  },
+  "O3": {
+    "att": -1.9371,
+    "att_pct_of_pre_mean": -4.96,
+    "ci_high": -1.2753,
+    "ci_low": -2.5989,
+    "label": "monthly cost at the dToU schedule (£)",
+    "n_households": 4251,
+    "n_obs": 84713,
+    "p": 0.0,
+    "se": 0.3376,
+    "tou_pre_mean": 39.0738
+  },
+  "O4": {
+    "att": -9.2806,
+    "att_pct_of_pre_mean": -3.32,
+    "ci_high": -4.6544,
+    "ci_low": -13.9069,
+    "label": "total monthly kWh",
+    "n_households": 4251,
+    "n_obs": 84713,
+    "p": 8.4e-05,
+    "se": 2.3604,
+    "tou_pre_mean": 279.4369
+  },
+  "O5": {
+    "att": 0.4519,
+    "att_pct_of_pre_mean": 1.88,
+    "ci_high": 0.9975,
+    "ci_low": -0.0937,
+    "label": "monthly kWh in Low-price half-hours",
+    "n_households": 4251,
+    "n_obs": 84713,
+    "p": 0.10452,
+    "se": 0.2784,
+    "tou_pre_mean": 24.0045
+  }
+}

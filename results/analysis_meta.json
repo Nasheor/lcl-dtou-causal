@@ -1,0 +1,13 @@
+{
+  "deviation": null,
+  "figures": {
+    "O1": "C:\\Users\\nagar\\PyCharmProjects\\gaps\\lcl-dtou-causal\\docs\\event_study_O1.png",
+    "O2": "C:\\Users\\nagar\\PyCharmProjects\\gaps\\lcl-dtou-causal\\docs\\event_study_O2.png",
+    "O3": "C:\\Users\\nagar\\PyCharmProjects\\gaps\\lcl-dtou-causal\\docs\\event_study_O3.png",
+    "O4": "C:\\Users\\nagar\\PyCharmProjects\\gaps\\lcl-dtou-causal\\docs\\event_study_O4.png",
+    "O5": "C:\\Users\\nagar\\PyCharmProjects\\gaps\\lcl-dtou-causal\\docs\\event_study_O5.png"
+  },
+  "permutations": 500,
+  "preregistration_sha256": "973b734c7e04768e23e2a5fc6628a67a3e17c4dcd6fdd8832055e8cdb58cbaf1",
+  "seed": 20261028
+}
