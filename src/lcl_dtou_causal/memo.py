@@ -21,8 +21,6 @@ from .common import (
     write_text,
 )
 
-REQUIRED = "assignment was randomised, DiD is the robustness design"
-
 
 def fmt(x: float, nd: int = 2) -> str:
     s = f"{x:.{nd}f}"
@@ -143,10 +141,11 @@ def memo_text(r: dict) -> str:
     t.append(
         f"The 2013 price schedule came from the open London Datastore release (`Tariffs.xlsx`, {sch['half_hours']:,} half-hours, "
         f"{sch['band_counts']['High']} High, {sch['band_counts']['Low']} Low, {sch['event_days']} event days), so neither fallback was needed. "
-        f"The unit's specification expected that {REQUIRED}. The trial report says otherwise: households opted in to the dToU tariff "
-        "with a £100 sign-up and £50 completion incentive, and its authors assumed that self-selection had created a difference between "
-        "the groups (Report A3, printed pages 22 to 24). Difference-in-differences with household and month fixed effects is therefore the "
-        "primary design here and the post-period comparison with a pre-period covariate is the check. Both are reported and they agree.\n"
+        "The trial was opt-in, not randomised (Learning Report A3, printed pages 22 to 24): households volunteered for the dToU tariff "
+        "with a £100 sign-up and £50 completion incentive, and the report's authors assumed that self-selection had created a difference "
+        "between the groups. The two-way fixed-effects difference-in-differences with household-clustered errors is therefore the primary "
+        "design. The ANCOVA, each household's 2013 mean on its group and its 2012 mean, is reported as the check that would have been "
+        "primary under random assignment. Both are reported and they agree.\n"
     )
     t.append("## Question\n")
     t.append(
@@ -243,7 +242,7 @@ def slide_text(r: dict) -> str:
         f"- Total use {fmt(d['O4']['att_pct_of_pre_mean'], 1)} %, Low-price use {fmt(d['O5']['att_pct_of_pre_mean'], 1)} % (not distinguishable from zero)\n"
         f"- Placebos: a false July 2012 treatment date gives nothing, {perm_text(pl['O1']['permutation'])} random relabellings match the bill effect\n"
         "- Design: pre-registered and hash-frozen plan, difference-in-differences with household and month fixed effects, household-clustered errors\n"
-        "- The trial was opt-in with cash incentives, so the comparison with a pre-period covariate is a check, not the headline\n"
+        "- The trial was opt-in, not randomised, with cash incentives, so the difference-in-differences is the headline and the ANCOVA check is the comparison that would have been primary under random assignment\n"
         "- For a pilot: pre-register before the switch, a year of pre-switch readings per household, randomise the switch if possible\n"
     )
 

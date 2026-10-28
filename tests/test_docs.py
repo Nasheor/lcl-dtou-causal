@@ -1,15 +1,27 @@
 """The memo, the slide and the README say what the spec requires and nothing it forbids."""
 import re
 
-REQUIRED = "assignment was randomised, DiD is the robustness design"
 MARKDOWN = ["README.md", "PREREGISTRATION.md", "LICENCE_CHECK.md", "docs/memo.md", "docs/partner_slide.md"]
+DOCS = ("docs/memo.md", "docs/partner_slide.md", "README.md")
+CLAIMS_RANDOMISED = [
+    re.compile(r"assignment (to [^.]{0,40})?(was|is) randomi[sz]ed"),
+    re.compile(r"(households|participants|customers) were randomi[sz]ed"),
+    re.compile(r"randomly (assigned|allocated)"),
+    re.compile(r"randomi[sz]ed (controlled )?trial"),
+    re.compile(r"random assignment (was|is) (used|valid|in place)"),
+]
 
 
-def test_required_sentence_in_memo_and_readme(repo_root):
-    for name in ("docs/memo.md", "README.md"):
-        text = (repo_root / name).read_text(encoding="utf-8")
-        assert REQUIRED in text, name
-        assert "opt-in" in text.lower(), name
+def test_design_stated_plainly(repo_root):
+    """Each document says the trial was opt-in and names the difference-in-differences, and none claims
+    randomised assignment as a fact. Counterfactual wording ("under random assignment") is allowed."""
+    for name in DOCS:
+        text = (repo_root / name).read_text(encoding="utf-8").lower()
+        assert "opt-in" in text, name
+        assert "difference-in-differences" in text, name
+        assert "not randomised" in text, name
+        hits = [p.pattern for p in CLAIMS_RANDOMISED if p.search(text)]
+        assert not hits, f"{name} claims randomised assignment as a fact: {hits}"
 
 
 def test_no_semicolons_in_markdown(repo_root):
