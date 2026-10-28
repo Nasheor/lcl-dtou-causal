@@ -1,0 +1,172 @@
+{
+  "csv": {
+    "columns": [
+      "LCLid",
+      "stdorToU",
+      "DateTime",
+      "KWH/hh (per half hour)"
+    ],
+    "duplicate_household_timestamps": 115453,
+    "first_rows": [
+      [
+        "MAC004383",
+        "Std",
+        "2013-08-19 22:30:00.0000000",
+        " 0.138 "
+      ],
+      [
+        "MAC004383",
+        "Std",
+        "2013-08-19 23:00:00.0000000",
+        " 0.13 "
+      ],
+      [
+        "MAC004383",
+        "Std",
+        "2013-08-19 23:30:00.0000000",
+        " 0.086 "
+      ]
+    ],
+    "households_Std": 4443,
+    "households_ToU": 1123,
+    "households_by_year_and_group": {
+      "2011_Std": 354,
+      "2011_ToU": 57,
+      "2012_Std": 4436,
+      "2012_ToU": 1118,
+      "2013_Std": 4411,
+      "2013_ToU": 1117,
+      "2014_Std": 4065,
+      "2014_ToU": 1043
+    },
+    "households_distinct": 5566,
+    "households_with_both_flags": 0,
+    "kwh_missing_rows": 5560,
+    "kwh_missing_tokens": [
+      "Null"
+    ],
+    "readings_per_hour_on_clock_change_nights": {
+      "2012-03-25": {
+        "00": 2376,
+        "01": 2376,
+        "02": 2376,
+        "03": 2374
+      },
+      "2012-10-28": {
+        "00": 11036,
+        "01": 11030,
+        "02": 11030,
+        "03": 11038
+      },
+      "2013-03-31": {
+        "00": 10809,
+        "01": 10806,
+        "02": 10806,
+        "03": 10806
+      },
+      "2013-10-27": {
+        "00": 15564,
+        "01": 10379,
+        "02": 10380,
+        "03": 10379
+      }
+    },
+    "rows": 167932474,
+    "stdorToU_present": true,
+    "stdorToU_values": {
+      "Std": {
+        "households": 4443,
+        "rows": 134148703
+      },
+      "ToU": {
+        "households": 1123,
+        "rows": 33783771
+      }
+    },
+    "timestamp_max": "2014-02-28 00:00:00",
+    "timestamp_min": "2011-11-23 09:00:00",
+    "timestamps_on_half_hour": 167926914,
+    "timestamps_total": 167932474,
+    "timestamps_unparseable": 0
+  },
+  "dataset_page": "https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households",
+  "expected_households_near": 5567,
+  "expected_tou_households_near": 1100,
+  "extraction": {
+    "already_present": 0,
+    "csv_files": 168,
+    "written": 168
+  },
+  "files": {
+    "Partitioned LCL Data.zip": {
+      "bytes": 795722689,
+      "expected_bytes_recorded_in_licence_check": 795722689,
+      "server_content_length": 795722689,
+      "sha256": "149a6a9c43c622fd0a14b7d11be055665317d3018d9fb7e1043bd51420bfaea5",
+      "size_matches_server": true,
+      "url": "https://data.london.gov.uk/download/vqm0d/04feba67-f1a3-4563-98d0-f3071e3d56d1/Partitioned%20LCL%20Data.zip"
+    },
+    "Tariffs.xlsx": {
+      "bytes": 245384,
+      "expected_bytes_recorded_in_licence_check": 245384,
+      "server_content_length": 245384,
+      "sha256": "8a2eff6dcb737aee96cfa6c357d2947604d7f812896405c2ab5f98433d2cb150",
+      "size_matches_server": true,
+      "url": "https://data.london.gov.uk/download/vqm0d/14855047-44c2-4856-8a48-e5649200e6ce/Tariffs.xlsx"
+    }
+  },
+  "licence": "CC BY 4.0, see LICENCE_CHECK.md",
+  "raw_rows_committed": false,
+  "schedule_route": "open release (Tariffs.xlsx)",
+  "tariffs_xlsx": {
+    "bands_found": [
+      "High",
+      "Low",
+      "Normal"
+    ],
+    "has_2013_half_hourly_schedule": true,
+    "sheets": {
+      "Sheet1": {
+        "band_counts": {
+          "High": 788,
+          "Low": 1660,
+          "Normal": 15072
+        },
+        "columns": [
+          "TariffDateTime",
+          "Tariff"
+        ],
+        "duplicate_timestamps": 0,
+        "head": [
+          [
+            "2013-01-01 00:00:00",
+            "Normal"
+          ],
+          [
+            "2013-01-01 00:30:00",
+            "Normal"
+          ],
+          [
+            "2013-01-01 01:00:00",
+            "Normal"
+          ]
+        ],
+        "rows": 17520,
+        "timestamp_max": "2013-12-31 23:30:00",
+        "timestamp_min": "2013-01-01 00:00:00",
+        "timestamps_on_half_hour": 17520,
+        "timestamps_unparseable": 0
+      },
+      "Sheet2": {
+        "columns": [],
+        "head": [],
+        "rows": 0
+      },
+      "Sheet3": {
+        "columns": [],
+        "head": [],
+        "rows": 0
+      }
+    }
+  }
+}
