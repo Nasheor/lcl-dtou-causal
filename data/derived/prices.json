@@ -1,0 +1,16 @@
+{
+  "dtou": {
+    "High": 67.2,
+    "Low": 3.99,
+    "Normal": 11.76
+  },
+  "flat_Std": 14.228,
+  "price_sources": [
+    "Low Carbon London Learning Report A3, Residential consumer responsiveness to time-varying pricing, Schofield, Carmichael, Tindemans, Woolf and Bilton, Imperial College London, 30 June 2014, printed page 5: High price 67.20 pence/kWh, Mid price 11.76 pence/kWh, Low price 3.99 pence/kWh, nonTOU flat rate 14.228 pence/kWh. https://doi.org/10.25561/21252",
+    "The same report, printed page 32 (section Final pricing schedule): High 67.2, Default 11.76, Low 3.99, nonTOU 14.228.",
+    "London Datastore dataset description, https://data.london.gov.uk/dataset/smartmeter-energy-use-data-in-london-households: High (67.20p/kWh), Low (3.99p/kWh) or normal (11.76p/kWh), flat rate 14.228pence/kWh."
+  ],
+  "schedule_source": "open release, Tariffs.xlsx",
+  "tariffs_xlsx_carries_prices": false,
+  "unit": "pence per kWh, unit rate only, no standing charge, VAT or levy"
+}

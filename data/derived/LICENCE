@@ -1,0 +1,20 @@
+Derived data licence
+
+The files in this folder are derived from the dataset "SmartMeter Energy Consumption Data in London
+Households" (UK Power Networks, Low Carbon London), published on the London Datastore under the
+Creative Commons Attribution 4.0 International licence, https://creativecommons.org/licenses/by/4.0/ .
+They are redistributed under the same licence.
+
+Attribution line to carry with any reuse:
+Contains data from 'SmartMeter Energy Consumption Data in London Households', UK Power Networks (Low Carbon London), published on the London Datastore under the Creative Commons Attribution 4.0 International licence (https://creativecommons.org/licenses/by/4.0/). Changes: aggregated from half-hourly readings to household-month totals and joined to the 2013 dynamic time-of-use price schedule.
+
+Files:
+- dtou_schedule_2013.parquet: one row per half-hour of 2013 with the price band (High, Normal, Low) read
+  from the release's Tariffs.xlsx and the pence per kWh for that band.
+- prices.json: the band prices and the flat rate with their sources.
+- panel_monthly.parquet: one row per household and month (January 2012 to December 2013) with the
+  pseudonymous household id as published, the trial group, half-hours observed, kWh in total and by band,
+  and the cost at the flat rate, at the dToU schedule and at the household's own tariff. No half-hourly row
+  is included.
+
+The code in this repository is separate and under the MIT licence (see LICENSE).
