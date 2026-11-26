@@ -67,10 +67,19 @@ Opt-in trial with cash incentives and a guarantee that nobody would be worse off
 
 Time frame. Report A3 states the event schedule in local time and kept events off the clock-change days. The readings carry 01:00 and 01:30 labels on 31 March 2013, an hour that did not exist in local time, so they are most likely stamped in a fixed GMT frame, and the pre-registered join on equal labels is then one hour off during British Summer Time for every outcome that uses the schedule (`results/timeframe_check.json` holds the evening-peak evidence, which is mixed). The pre-registered join was kept and is what the Results table reports. A sensitivity run with the schedule moved back one hour inside British Summer Time before the join (`DEVIATIONS.md` D1, `results/sensitivity_timeframe.json`) re-estimates every outcome, and the memo quotes both sets of numbers. Nothing here says anything about households outside the trial.
 
+## Requirements
+
+- Python 3.11 or newer and git.
+- The commands below are written for Windows (`.venv\Scripts\`). On Linux or macOS use `.venv/bin/` instead.
+- Every dependency is pinned in `pyproject.toml`, and `requirements.lock` records the full resolved set.
+- No API key and no account.
+- The tests and the smoke run use the committed derived panel and need no download.
+- The full pipeline downloads about 800 MB from the London Datastore and extracts about 10 GB under `data/raw/`, which is gitignored.
+
 ## How to run
 
 ```
-C:/Users/nagar/anaconda3/python.exe -m venv .venv
+python -m venv .venv
 .venv\Scripts\pip install -e .[dev]
 .venv\Scripts\python -m pytest -q
 .venv\Scripts\python -m lcl_dtou_causal smoke
@@ -82,6 +91,26 @@ Full pipeline, in order: `prereg freeze` (done once, committed), `download` (abo
 
 The three template tests (smoke under ten minutes, no secrets, README numbers), `test_prereg_hash.py`, `test_prereg_order.py`, `test_panel_rules.py` (the sample rules and the cost arithmetic on a synthetic half-hourly table with known violations), `test_did_recovers_known_effect.py` (an injected 10 % effect on a synthetic self-selected panel is recovered within the 95 % interval, and the permutation estimator equals PanelOLS), `test_placebo.py`, `test_derived_licence.py` and `test_docs.py`.
 
+## Repository layout
+
+| Path | What it holds |
+|---|---|
+| `PREREGISTRATION.md`, `DEVIATIONS.md` | The analysis plan frozen by hash before the download, and the record of any departure from it |
+| `src/lcl_dtou_causal/prereg.py` | The freeze and the hash check |
+| `src/lcl_dtou_causal/download.py`, `schedule.py`, `panel.py` | Fetching and verifying the files, building the 2013 price schedule, and the DuckDB pass to the household-month panel |
+| `src/lcl_dtou_causal/analyse.py` | The estimators, placebos, balance and heterogeneity |
+| `src/lcl_dtou_causal/memo.py` | The memo, the partner slide and the README results block |
+| `src/lcl_dtou_causal/__main__.py` | The command line: `prereg`, `download`, `schedule`, `panel`, `analyse`, `memo`, `smoke` |
+| `data/derived/` | The household-month panel and schedule, CC BY 4.0 with attribution |
+| `docs/` | The memo, the partner slide and the event-study plots |
+| `results/` | The JSON files behind every number in this README |
+| `tests/` | The test suite |
+| `LICENCE_CHECK.md` | Source, licence and permitted use of every dataset |
+
 ## Licence
 
 Code: MIT, Avinash Nagarajan. Derived data under `data/derived/`: CC BY 4.0 with the attribution above.
+
+## Author
+
+Avinash Nagarajan ([github.com/Nasheor](https://github.com/Nasheor)). Questions and bug reports are welcome through the issue tracker of this repository.
